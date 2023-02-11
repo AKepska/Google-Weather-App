@@ -1,5 +1,7 @@
 package com.example.weatherApi.service.dto;
+
 import java.io.Serializable;
+
 import lombok.Getter;
 import lombok.Setter;
 

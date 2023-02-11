@@ -1,5 +1,7 @@
 package com.example.weatherApi.model.domain;
+
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -15,6 +17,7 @@ import lombok.Setter;
 @Entity
 public class DBResult {
 	@Id
+	@GeneratedValue
 	private Integer id;
 	double latitude;
 	double longitude;
